@@ -4,7 +4,7 @@
             <h6>China InwZa<br>chinapanda@contact.com</h6>
             <ul>
                 <li><b-icon-house-door-fill class="menu-icon"/><router-link to="/">HOME</router-link></li>
-                <li><b-icon-square-fill class="menu-icon"/><router-link to="/">PRODUCT</router-link></li>
+                <li><b-icon-square-fill class="menu-icon"/><router-link to="/product">PRODUCT</router-link></li>
                 <li><b-icon-square-fill class="menu-icon"/><router-link to="/inventory">INVENTORY</router-link></li>
                 <li><b-icon-person-fill class="menu-icon"/><router-link to="/customer">CUSTOMER</router-link></li>
                 <li><b-icon-square-fill class="menu-icon"/><router-link to="/">ORDER</router-link></li>

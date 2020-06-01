@@ -4,19 +4,16 @@ import Login from "../views/Login.vue";
 import SideBar from "../components/SideBar.vue";
 import Dashboard from "../views/Dashboard.vue";
 import Inventory from "../views/Inventory.vue";
-import CustomerAdd from "../views/CustomerAdd";
-import CustomerOverview from "../views/CustomerOverview";
-import CustomerUpdate from "../views/CustomerUpdate";
+import CustomerAdd from "../views/CustomerAdd.vue";
+import CustomerOverview from "../views/CustomerOverview.vue";
+import CustomerUpdate from "../views/CustomerUpdate.vue";
+import Product from "../views/Product";
+import ProductAdd from "../views/ProductAdd";
+import ProductUpdate from "../views/ProductUpdate";
 
 Vue.use(VueRouter);
 
 const routes = [
-  {
-    path: "/login",
-    redirect: {
-      name: "login"
-    }
-  },
   {
     path: "/login",
     name: "login",
@@ -51,6 +48,21 @@ const routes = [
     path: "/customerupdate",
     name: "CustomerUpdate",
     component: CustomerUpdate
+  },
+  {
+    path: "/product",
+    name: "Product",
+    component: Product
+  },
+  {
+    path: "/prodcutadd",
+    name: "ProductAdd",
+    component: ProductAdd
+  },
+  {
+    path: "/prodcutupdate",
+    name: "ProductUpdate",
+    component: ProductUpdate
   }
 ];
 
